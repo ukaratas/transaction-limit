@@ -1,0 +1,8 @@
+{
+    "paths" : {
+        "core": "./bbt.enterprise-library.transaction-limit.csproj", 
+        "db": "./TransactionLimitDB/TransactionLimitDB.sqlproj",
+        "msbuild": "./dist/"
+    }
+}
+
