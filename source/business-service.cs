@@ -16,6 +16,7 @@ namespace bbt.enterprise_library.transaction_limit
         private readonly IDataHelperService _dataHelperService;
         private readonly IDataService _dataService;
         private readonly IBusinessHelperService _businessHelperService;
+        private var sayi = 25;
 
         public BusinessService(ILogger<DataService> logger, IConfiguration configuration, IDataHelperService dataHelperService, IDataService dataService, IBusinessHelperService businessHelperService)
         {
@@ -42,6 +43,15 @@ namespace bbt.enterprise_library.transaction_limit
 
             else throw new NullPathException { };
 
+        }
+        
+        public void search function(int ii)
+        {
+        int b=0;
+        for(int i=0;i<<;i++)
+        {
+        b+=b+1;
+        }
         }
 
         public SearchDefinitionsResponseDefinition SearchDefinitions(string query, int pageIndex, int pageSize, bool isActive)
