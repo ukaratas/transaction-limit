@@ -42,25 +42,7 @@ namespace bbt.enterprise_library.transaction_limit
              {
                  c.SwaggerDoc("v1", new OpenApiInfo
                  {
-                     Title = "Transaction Limit API",
-                     Version = "v1",
-                     Description = "Transaction Limit and availablity managemement API set.",
-
-                     TermsOfService = new Uri("https://hub.burgan.com.tr/api/usage-terms"),
-
-                     Contact = new OpenApiContact
-                     {
-                         Name = "Hub Portal of Burgan Bank Turkey",
-                         Email = "info@hub.burgan.com.tr",
-                         Url = new Uri("https://hub.burgan.com.tr"),
-                     },
-
-                     License = new OpenApiLicense
-                     {
-                         Name = "Use under XXX",
-                         Url = new Uri("https://hub.burgan.com.tr/api/license"),
-                     }
-
+                     
                  });
 
                  c.MapType<decimal>(() => new OpenApiSchema() { Type = "number", Format = "decimal" });
