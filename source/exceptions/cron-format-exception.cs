@@ -4,8 +4,8 @@ namespace bbt.enterprise_library.transaction_limit
     {
         public CronFormatException()
         {
-            statusInfo["message"] = "Please check the CRON fields.";
-            statusInfo["statusCode"] = "461";
+            statusInfo["message"] = @"Please check the CRON fields.";
+            statusInfo["statusCode"] = @"461";
         }
     }
 }
