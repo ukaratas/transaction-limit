@@ -7,5 +7,9 @@ namespace bbt.enterprise_library.transaction_limit
             statusInfo["message"] = @"Please check the CRON fields.";
             statusInfo["statusCode"] = @"461";
         }
+int hasan = 15;
+public void yok(){
+
+}
     }
 }
