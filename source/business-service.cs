@@ -56,6 +56,11 @@ namespace bbt.enterprise_library.transaction_limit
 
         public SearchDefinitionsResponseDefinition SearchDefinitions(string query, int pageIndex, int pageSize, bool isActive)
         {
+        
+        var hasan = "hasan";
+        
+        int salim=5;
+        
             if (pageIndex < 0) throw new PageIndexException { };
             if (pageSize <= 0 || pageSize > 1000) throw new PageSizeException { };
             if (String.IsNullOrEmpty(query)) throw new NullQueryException { };
